@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # To use a consistent encoding
+import setuptools
 from os import path
 from codecs import open
 # Always prefer setuptools over distutils
@@ -18,8 +19,8 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name = 'coinmarketcap-with-cache',
-    packages = ['coinmarketcap'],
-    version = '5.0.3-with-cache',
+    packages = setuptools.find_packages(),
+    version = '5.1.0',
     description = 'Forked from https://github.com/barnumbirr/coinmarketcap',
     author = 'neoctobers',
     author_email = 'neoctobers@gmail.com',
