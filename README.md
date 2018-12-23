@@ -1,3 +1,17 @@
+## Temporarily exist before pull request.
+
+Forked from: https://github.com/barnumbirr/coinmarketcap
+
+Renamed of `coinmarketcap-with-cache`, cause usage by uploaded to PyPI
+
+Just add cache_expire_after, when:
+```python
+from coinmarketcap-with-cache import Market
+
+coinmarketcap = Market(
+    cache_expire_after=30,
+)
+```
 
 # ![icon](https://raw.githubusercontent.com/barnumbirr/coinmarketcap/master/doc/coinmarketcap.png) coinmarketcap
 
